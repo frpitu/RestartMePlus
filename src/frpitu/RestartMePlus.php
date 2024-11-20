@@ -199,6 +199,6 @@ final class RestartMePlus extends PluginBase
 		}
 
 		$this->time++;
-		$this->getLogger()->notice("{$this->restartTime}");
+		//$this->getLogger()->notice("{$this->restartTime}");
 	}
 }
