@@ -9,14 +9,14 @@
 <h1>How to config</h1>
 <h3>Configs.</h3>
 
-  restart-enable: Enable or disable the Restart system.
+  - restart-enable: Enable or disable the Restart system.
   
-  restart-time: Adjust the time at which the server will restart.
+  - restart-time: Adjust the time at which the server will restart.
   
-  restart-msgType: Define the type of message that will appear, being: message = 0, popup = 1, tip = 2
+  - restart-msgType: Define the type of message that will appear, being: message = 0, popup = 1, tip = 2
   
-  restart-brodcastTimeMsg: Message about how long it takes to reset the server.
+  - restart-brodcastTimeMsg: Message about how long it takes to reset the server.
   
-  restart-serverIsStopping: Transmits the countdown, when it is close to resetting.
+  - restart-serverIsStopping: Transmits the countdown, when it is close to resetting.
   
-  restart-kickMsg: Kick reason.
+  - restart-kickMsg: Kick reason.
